@@ -4,12 +4,12 @@ In this assignment, we worked on parallel processing using threads. We are taske
 class B, and is holding shared office hours for both classes in his office. The professor can have a large number of students showing up for his office hours, so he decides to impose
 several restrictions.
 
-#Compilation and Run instruction
+## Compilation and Run instruction
 
 - Should compile on omega.uta.edu
 - gcc officehours.c -o office hours -lpthread
 
-#Functional Requirements
+## Functional Requirements
 - Requirement 1: The professors's office has only 3 seats, so no more than 3 students are
 allowed to simultaneously enter the professor’s office. When the office is full and new
 students arrive they have to wait outside the office.
